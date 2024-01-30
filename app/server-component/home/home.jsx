@@ -10,6 +10,7 @@ import homeBg from "../../../public/asset/bg-design.svg";
 import dot from "../../../public/asset/dot.svg";
 import HeadingAnimation from '../../client-component/type-animation/heading-animation'
 import SocialIcon from '../../client-component/social-icons/social-icon'
+import { MdReadMore } from "react-icons/md";
 
 
 
@@ -17,17 +18,11 @@ function Home() {
   return (
     <div className="home" >
       <div className='hero-section'>
-      <Image className="dot primary-dot" src={dot} alt='bg' width='100' height='100' quality={100}/>
-      <Image className="dot secondary-dot" src={dot} alt='bg' width='100' height='100' quality={100}/>
-      <Image className="homeBg" src={homeBg} alt='bg' width='' height='' quality={100}/>
       <div className="container">
-        <div className="slider-icon">
-          <Image src={SliderIcon}  alt='slider' width={1200} height={800} quality={100}/>
-        </div>
         <div className="slider-info">
           <div className="description">
             <h1>
-              <span>Professional</span> Full Stack Web{" "}
+              <span>Professional Extraordinaire MERN Stack </span> {" "}
               <span>
                 <HeadingAnimation />
               </span>
@@ -35,10 +30,6 @@ function Home() {
             <p>
               As a skilled Full Stack Web Developer with expertise in the MERN
               stack and diverse technologies, I deliver innovative solutions
-              that exceed expectations. With a passion for exceptional web
-              experiences, I bring a collaborative mindset, problem-solving
-              skills, and a commitment to on-time project delivery. Let&apos;s create
-              impactful digital solutions together.
             </p>
           </div>
           <div className="slider-buttons">
@@ -46,9 +37,13 @@ function Home() {
               Hire Me
             </Link>
             <Link className="primary-button" href="/">
-              Project
+              <span>Project</span>
+              <MdReadMore />
             </Link>
           </div>
+        </div>
+        <div className="slider-icon">
+          <Image src="https://cdni.iconscout.com/illustration/premium/thumb/web-development-3454628-2918517.png"  alt='slider' width={1200} height={800} quality={100}/>
         </div>
       </div>
       </div>

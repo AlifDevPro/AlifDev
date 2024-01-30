@@ -1,6 +1,6 @@
 .skills{
-    padding: 4rem 0;
-    background-color: #9FCFFF;
+    padding: 5rem 0;
+    background-color: rgb(36, 36, 222);
 }
 .skills-type{
     font-weight: 500;
@@ -13,12 +13,6 @@
 }
 .skills-type:hover{
     background-color: #ffd6b0;
-}
-.skillsWrapper{
-    display: grid;
-    gap: 0.7rem;
-    grid-template-columns: repeat(auto-fit, minmax(9rem, 0.5fr));
-    margin: 2rem 0rem;
 }
 @keyframes skillAnimation {
     0% {

@@ -1,5 +1,5 @@
 .portfolio{
-    background-color: #bcddff;
+    /* background-color: #bcddff; */
     border-radius: 0.8rem;
     overflow: hidden;
     display: flex;
@@ -11,7 +11,7 @@
 .portfolio > .thumbnail{
     width: 100%;
     aspect-ratio: 4/2.5;
-    background-color: #abd1ff;
+    /* background-color: #abd1ff; */
     overflow: hidden;
    
 }
@@ -27,10 +27,13 @@
     padding: 1rem;
 }
 .portfolio-info > span{
-    background-color: #FFDFC2;
+    color:rgb(36, 36, 222);;
+    background-color: rgb(233, 233, 255);;
     padding: 0.5rem 1rem;
     border-radius: 0.3rem;
     width: fit-content;
+    font-size: .8rem;
+    font-weight: 600;
 }
 .portfolio-info > p{
     color: #424649;

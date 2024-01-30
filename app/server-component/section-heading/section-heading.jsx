@@ -7,7 +7,6 @@ function SectionHeading({ direction, heading }) {
       {direction === "left" ? (
         <>
           <h1>{heading}</h1>
-          <span className="border"></span>
         </>
       ) : (
         <>

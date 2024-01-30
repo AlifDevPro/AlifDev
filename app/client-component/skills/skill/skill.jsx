@@ -106,7 +106,7 @@ function Skill({percentages, logo, name, animate, index, getter}) {
                       transition: "stroke-dashoffset 0.5s ease 0.5s",
                     },
                     trail: {
-                      stroke: "#BBDEFC",
+                      stroke: "rgb(100, 100, 255)",
                     },
                     text: {
                       fill: "#fff",

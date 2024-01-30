@@ -16,7 +16,7 @@ function Reviews() {
     // if (typeof window !== 'undefined') {
       const swiper = new Swiper('.swiper', {
         modules: [Navigation, Pagination, Autoplay ],
-        slidesPerView: 2,
+        slidesPerView: 3,
         spaceBetween: 15,
         centeredSlides: true,
         loop: true, 
@@ -35,7 +35,7 @@ function Reviews() {
         breakpoints: {
           // when window width is >= 320px
           1160: {
-            slidesPerView: 2,
+            slidesPerView: 3,
           },
           870: {
             slidesPerView: 1.5,
@@ -52,7 +52,7 @@ function Reviews() {
 
   return (
     <div className='reviews' id='reviews'>
-      <div className='container'>
+      <div className='containr'>
         <SectionHeading heading='reviews' />
         <div className='swiper'>
           <div className='swiper-wrapper'>

@@ -1,6 +1,6 @@
 .skill{
-    background-color: #ABD5FF;
-    width: fit-content;
+    background-color: rgb(66, 66, 255);
+    width: 8rem;
     padding: 1rem;
     border: 1px solid #c5e2ff;
     border-radius: 0.5rem;
@@ -8,7 +8,7 @@
     opacity: 0;
 }
 .skill:hover{
-    background-color: #bcddff;
+    background-color: rgb(80, 80, 255);
 }
 .skill-percentage{
     color: #fff;
@@ -21,7 +21,7 @@
 } */
 
 .skill-logo{
-    background-color: #ffffffd9;
+    background-color: rgb(100, 100, 255);
     width: 50%;
     height: 50%;
     border-radius: 50%;
@@ -43,10 +43,11 @@
     width: 80%;
     height: 80%;
     object-fit: contain;
+    /* filter: brightness(0) invert(1); */
 }
 .skillName{
     color: #fff;
-    font-size:20px;
+    font-size:14px;
     font-weight: 500;
     display: flex;
     align-items: center;

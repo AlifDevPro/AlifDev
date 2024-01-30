@@ -4,21 +4,6 @@
     position: relative;
     /* z-index: -2; */
 }
-.dot{
-    position: absolute;
-}
-.primary-dot{
-    left: 48%;
-    top: 5%;
-    width: 5rem;
-    height: 5rem;
-}
-.secondary-dot{
-    left: 45%;
-    top: 70%;
-    width: 12rem;
-    height: 12rem;
-}
 .hero-section > .container{
     display: flex;
     gap: 5rem;
@@ -32,6 +17,7 @@
     overflow: hidden;
     width: 900px;
     left: -1%;
+    filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
 }
 .slider-icon > img{
     height: auto;
@@ -45,67 +31,67 @@
 
 .slider-info{
     width: 50%;
-    text-align: right;
     display: flex;
     flex-direction: column;
-    gap: 7rem;
+    gap: 4rem;
 }
 .slider-info > .description{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    width: 40rem;
 }
 .slider-info > .description > h1{
-    font-size: 62px;
-    color: #fff;
-    font-weight: 600;
-    line-height: 81px;
+    font-size: 3.2rem;
+    color: rgb(30 41 59);
+    font-weight: 700;
+    line-height: 60px;
 }
 .slider-info > .description > h1 > span:last-child{
-    color: #FFDFC2;
+    color: rgb(35, 35, 255);
 }
 .slider-info > .description > p{
-    color: #fff;
-    line-height: 33px;
-    font-size: 20px;
-    font-weight: 400;
+    color: #868686;
+    line-height: 27px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 35rem;
 }
 .slider-buttons{
     display: flex;
     gap: 1rem;
     align-items: center;
-    justify-content: end;
 }
 .primary-button{
-    color: #7BB7FF;
+    color: #130e20;
     background-color: #fff;
-    padding: 0.8rem 2.8rem;   
-    border-radius: 0.2rem;
+    padding: 0.8rem 2rem;   
+    border-radius: 1rem;
     font-weight: 500;     
     border:1px solid #fff;
     transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    border: 1px solid rgb(36, 36, 222);;
   }
   .primary-button:hover{
-    background-color: #f3f3f3;
+    
     cursor: pointer;
   }
   .secondary-button{
     color: #ffffff;
-    padding: 0.8rem 2.8rem;   
+    background-color: rgb(35, 35, 255);
+    padding: 1rem 2.8rem;   
     border-radius: 0.2rem;
     font-weight: 500;     
     border:1px solid #fff;
     box-sizing: border-box;
+    border-radius: 1.2rem;
     transition: all 0.2s ease;
   }
   .secondary-button:hover{
-    background-color: #fff;
-    color:#7BB7FF;
-    cursor: pointer;
-  }
-  .secondary-button:hover + .primary-button{
-    background-color: transparent;
-    color: #fff;
+    background-color: rgb(50, 50, 242);
   }
 
 /* ===========================social icons===================== */
@@ -118,19 +104,14 @@
 }
 
 .social-icon > a > .social{
-    fill: #7BB7FF;
-    background-color: #fff;
+    fill: rgb(36, 36, 222);
+    background-color: rgb(231, 231, 255);
     padding: 0.5rem;
     box-sizing: content-box;
     border-radius: 100%;
     transition: all 0.2s ease;
 }
 
-.social-icon > a > .social:hover{
-    fill: #7BB7FF;
-    background-color: #ffffff;
-    transform: rotate(360deg) scale(1.1);
-}
 
 /* ===========media querry============= */
 @media screen and (max-width: 1580px) {

@@ -10,12 +10,15 @@ function Skills() {
   return (
     <div className="skills" id='skills'>
       <div className="container">
-        <SectionHeading heading="SKILLS" direction="left" />
-        <div className="programming-skills">
-          <h3 className="skills-type">Programming</h3>
+        <div className="header flex flex-col gap-4 items-center justify-center py-16">
+            <h2 className="text-5xl font-semibold text-white">My Extraordinaire Skills</h2>
+            <p className="text-gray-200 font0-medium text-base">Here is list of my top skils and expertise</p>
+        </div>
+        <div className="programming-skills flex flex-col items-center gap-6">
+          <h3 className="skills-type center">Programming</h3>
 
           <div
-            className='skillsWrapper'
+            className='skillsWrapper flex flex-wrap gap-4 gap-y-6 justify-center'
             // ref={programmingSkillsRef}
           >
             {programmingSkills.map((skill, index) => (
