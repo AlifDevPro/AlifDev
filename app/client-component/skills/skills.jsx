@@ -33,10 +33,10 @@ function Skills() {
             ))}
           </div>
         </div>
-        <div className="othersSkills">
+        <div className="othersSkills mt-4 flex flex-col items-center gap-6">
           <h3 className="skills-type">Others</h3>
           <div
-            className='skillsWrapper' >
+            className='skillsWrapper flex flex-wrap gap-4 gap-y-6 justify-center' >
             {othersSkills.map((skill, index) => (
               <Skill
                 key={index}

@@ -1,0 +1,59 @@
+[33mcommit 2d4abce6a3d9f6fdaba15f74fa2380f1d86f4e9d[m[33m ([m[1;36mHEAD -> [m[1;32malifdev[m[33m, [m[1;32mfront-end[m[33m)[m
+Author: AlifDevPro <alifahmed1062005@gmail.com>
+Date:   Tue Jan 30 23:47:55 2024 +0600
+
+    header title editing
+
+[33mcommit 56555c0d2e5d6a1d64949310f41448c17383a028[m[33m ([m[1;31morigin/front-end[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: AlifAhmedDev <alif.ahmed.dev@gmail.com>
+Date:   Sun Jul 16 00:22:59 2023 +0600
+
+    v1.0.2
+
+[33mcommit b56f890a8700fd80164664f7f63fe96f404350cc[m
+Author: AlifAhmedDev <alif.ahmed.dev@gmail.com>
+Date:   Sat Jul 8 23:57:22 2023 +0600
+
+    v1.0.0
+
+[33mcommit a79598799e0ac0f84a425e3f264b0c895aa573a9[m
+Author: AlifAhmedDev <alif.ahmed.dev@gmail.com>
+Date:   Sat Jul 8 15:39:38 2023 +0600
+
+    responsived
+
+[33mcommit 1c6dc3f89f4de70afa9cf21c170e0e28a13871da[m
+Author: AlifAhmedDev <alif.ahmed.dev@gmail.com>
+Date:   Fri Jul 7 01:41:04 2023 +0600
+
+    porfolio initial opacity 0
+
+[33mcommit 1867a15849d8cfcfcb3b2395e878354c97efc336[m
+Author: AlifAhmedDev <alif.ahmed.dev@gmail.com>
+Date:   Thu Jul 6 23:42:07 2023 +0600
+
+    quotes fixed
+
+[33mcommit dc5aa25511a0d563c2357e65e9a724ae13450301[m
+Author: AlifAhmedDev <alif.ahmed.dev@gmail.com>
+Date:   Thu Jul 6 23:38:00 2023 +0600
+
+    bug fixed
+
+[33mcommit a620fb222ccac8cfdde013dc55e833ce9239fd0f[m
+Author: AlifAhmedDev <alif.ahmed.dev@gmail.com>
+Date:   Thu Jul 6 23:00:23 2023 +0600
+
+    completing design development
+
+[33mcommit 002a903c8cf91ccb1f5e59c2b5ade843cdfe19ef[m
+Author: AlifAhmedDev <alif.ahmed.dev@gmail.com>
+Date:   Sat Jul 1 17:56:44 2023 +0600
+
+    initial commit
+
+[33mcommit f8c114f2129c7064565a57c28a8e211a76ac0672[m
+Author: AlifAhmedDev <alif.ahmed.dev@gmail.com>
+Date:   Fri Jun 30 18:33:43 2023 +0600
+
+    Initial commit from Create Next App

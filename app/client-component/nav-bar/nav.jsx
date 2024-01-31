@@ -40,7 +40,7 @@ function Navbar() {
           <Link href="#reviews">Reviews</Link>
       </div>
       <div className="menu-button">
-        <span className="contact-button">Contact</span>
+        <Link href="/" className="contact-button  active:scale-95 transition">Contact</Link>
         <span className="menu-icon-wrapper" onClick={menuClick} ref={menuRef}>
          <MenuIcon className="menu-icon"/>
         </span>
@@ -53,7 +53,7 @@ function Navbar() {
           <Link href="#projects">Project</Link>
           <Link href="#reviews">Reviews</Link>
           <span></span>
-          <Link href="/">Contact</Link>
+          <Link className='active:scale-95 transition' href="https://www.linkedin.com/in/alif-ahmed-7903a029a/">Contact</Link>
            </div>
            <div className="side-menu-social">
             <Link href='/'><SocialIcon classId='social' name='stack-overflow' /></Link>

@@ -40,10 +40,10 @@ function Portfolio({thumbnail, type, desc}) {
     <div className={`portfolio ${inViewport ? 'animate-portfolio' : ''}`} ref={portfolioRef}>
         <div className='thumbnail'>
             <Image src={thumbnail} alt='thumnail'  width={1200} height={800} quality={80}/>
-        </div>
+        </div> 
         <div className='portfolio-info'>
-            <span>{type}</span>
-            <p>{desc}</p>
+            <span className='mt-4 font-sm font-semibold text-slate-900'>{type}</span>
+            <p className='text-gray-600 text-base'>{desc}</p>
         </div>
     </div>
   )

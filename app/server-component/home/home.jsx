@@ -33,7 +33,7 @@ function Home() {
             </p>
           </div>
           <div className="slider-buttons">
-            <Link className="secondary-button" href="/">
+            <Link className="secondary-button active:scale-95 transition" href="/">
               Hire Me
             </Link>
             <Link className="primary-button" href="/">

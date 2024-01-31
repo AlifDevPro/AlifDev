@@ -1,7 +1,6 @@
 'use client'
 
 import React from 'react'
-import 'boxicons'
 
 function SocialIcons({name, classId}) {
   return (

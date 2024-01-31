@@ -41,16 +41,4 @@ export const portfolioData = [
         type:'Event Management System',
         desc:'Create a web application for managing and organizing events, including features like event registration, ticket sales, attendee management, and event analytics.',
     },
-    
-    {
-        thumbnail:'https://themefisher.com/_next/image?url=%2Fblog%2Fnovena.png&w=1920&q=75',
-        type:'Health and Fitness Tracking App',
-        desc:'Build a web-based application that allows users to track their fitness goals, log workouts, monitor nutrition, and provide progress insights and recommendations.',
-    },
-    // {
-    //     thumbnail:'',
-    //     type:'Portfolio Website',
-    //     desc:' Develop a visually appealing and responsive portfolio website for showcasing your work as a full stack web developer, including sections for projects, skills, and contact information.',
-    // },
-    
 ]
