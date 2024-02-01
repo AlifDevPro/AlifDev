@@ -1,8 +1,11 @@
 
 .hero-section{
-    margin: 8rem 0 5rem 0;
+    min-height: 92vh;
     position: relative;
-    /* z-index: -2; */
+    margin-top: -2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hero-section > .container{
     display: flex;
@@ -98,7 +101,7 @@
 .social-icon{
     display: flex;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 1rem;
     padding: 1rem 0 2rem 0;
     border-bottom: 1px solid #fff;;
 }

@@ -40,12 +40,12 @@ function Skill({percentages, logo, name, animate, index, getter}) {
       observer.observe(skillRef.current);
     }
 
-    return () => {
-      if (skillRef.current) {
-        observer.unobserve(skillRef.current);
+    // return () => {
+    //   if (skillRef.current) {
+    //     observer.unobserve(skillRef.current);
 
-      }
-    };
+    //   }
+    // };
   }, []);
 
   useEffect(() => {

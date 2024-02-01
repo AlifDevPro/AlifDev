@@ -84,10 +84,6 @@ export const programmingSkills = [
         logo: 'https://cdn-icons-png.flaticon.com/512/2721/2721246.png',
         percentage: '100',
     },
-];
-
-
-export const othersSkills = [
     {
         name: 'Figma',
         logo: 'https://upload.wikimedia.org/wikipedia/commons/a/ad/Figma-1-logo.png',
@@ -118,4 +114,4 @@ export const othersSkills = [
         logo: 'https://logodownload.org/wp-content/uploads/2019/10/adobe-premiere-pro-logo-0-1.png',
         percentage: '60',
     },
-]
+];
