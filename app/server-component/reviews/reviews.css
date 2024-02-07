@@ -1,6 +1,12 @@
-/* .reviews{
-    padding: 5rem 0;
-}
 .swiper{
-    padding: 2rem 0;
-} */
+    overflow:unset!important;
+}
+
+.swiper-pagination{
+    top: 20rem!important;
+}
+.swiper-pagination-bullet{
+    background: #ffffff!important;
+    height: 12px;
+    width: 12px;
+}
