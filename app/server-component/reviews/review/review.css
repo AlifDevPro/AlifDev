@@ -48,6 +48,5 @@
 }
 .reviewStar > .star{
     width: 1rem;
-    fill: rgb(253, 253, 255)!important;
-    background-color:red;
+    fill: rgb(242, 255, 0)!important;
 }
