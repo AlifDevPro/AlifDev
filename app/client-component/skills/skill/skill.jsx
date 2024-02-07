@@ -52,7 +52,7 @@ function Skill({percentages, logo, name, animate, index, getter}) {
     if (inViewport) {
       let startValue = 0;
       const endValue = percentage;
-      const duration = 500;
+      const duration = 1000;
       let startTime = null;
 
       const animateProgress = (timestamp) => {

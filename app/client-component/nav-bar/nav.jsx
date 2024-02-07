@@ -51,8 +51,11 @@ function Navbar() {
           <Link href="#projects">Project</Link>
           <Link href="#reviews">Reviews</Link>
         </div>
-        <div className="menu-button">
-          <Link href="/" className="contact-button  active:scale-95 transition">
+        <div className="cta divide-x-2 flex items-center gap-4">
+          <Link href="/" className="contact-button  active:scale-95 transition ">
+            Download CV
+          </Link>
+          <Link href="/" className="contact-button  active:scale-95 transition bg-[#2424de] text-white  py-3 px-6 rounded-2xl">
             Contact
           </Link>
           <span className="menu-icon-wrapper" onClick={menuClick} ref={menuRef}>

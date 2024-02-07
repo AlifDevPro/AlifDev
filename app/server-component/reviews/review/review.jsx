@@ -12,7 +12,7 @@ function Review({title, desc, name, avatar, rating}) {
                 <div className='reviewerAvatar'>
                     <Image src={avatar} alt='reviewer' width='100' height='100' />
                 </div>
-                <span>{name}e</span>
+                <span>{name}</span>
             </div>
             <div className='reviewStar'>
                 <box-icon type='solid' className='star' name='star'></box-icon>

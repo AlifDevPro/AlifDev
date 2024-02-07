@@ -76,10 +76,10 @@
     display: flex;
     align-items: center;
     gap: .5rem;
-    border: 1px solid rgb(36, 36, 222);;
+    border: 1px solid #2424de;
   }
   .primary-button:hover{
-    
+    color:rgb(36, 36, 222);
     cursor: pointer;
   }
   .secondary-button{
@@ -94,7 +94,7 @@
     transition: all 0.2s ease;
   }
   .secondary-button:hover{
-    background-color: rgb(50, 50, 242);
+    background-color: rgb(61, 61, 252);
   }
 
 /* ===========================social icons===================== */

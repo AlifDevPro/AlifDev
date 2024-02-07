@@ -20,7 +20,7 @@ export const portfolioData = [
         desc:'Develop a website for real estate agents or property owners to showcase listings, including search functionality, property details, image galleries, and contact forms.',
     },
     {
-        thumbnail:'https://uizard.io/static/0eb508d6e0f7367076f857fb37a28122/d9bdf/project-management-web-app-cover.png',
+        thumbnail:'https://clickup.com/blog/wp-content/uploads/2022/03/App-Illustration-Clickup-Best-Task-Management-Articles.png',
         type:'Task Management Application',
         desc:'Create a web-based task management tool that allows users to create, assign, and track tasks, including features like notifications, deadlines, and progress tracking.',
     },

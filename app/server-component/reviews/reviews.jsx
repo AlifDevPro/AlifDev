@@ -51,11 +51,14 @@ function Reviews() {
   }, []);
 
   return (
-    <div className='reviews' id='reviews'>
+    <div className='reviews  bg-[#2424de] p-24 text-white' id='reviews'>
       <div className='containr'>
-        <SectionHeading heading='reviews' />
+        <div className='reviews-header flex flex-col gap-4 items-center justify-center mb-16'>
+          <h2 className='text-5xl font-semibold text-white'>Our Customer Feedbacks</h2>
+          <p className='text-gray-200 font0-medium text-base'>Here is what our client says </p>
+        </div>
         <div className='swiper'>
-          <div className='swiper-wrapper'>
+          <div className='swiper-wrapper text-white'>
             {reviewData.map((review, index) => (
               <div className='swiper-slide' key={index} >
                 <Review

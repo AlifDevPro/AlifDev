@@ -4,22 +4,24 @@
     border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
+    background: #3030ff;
 }
 .review .reviewHeader{
-    color: rgb(4, 4, 33);;
+    color: rgb(255, 255, 255);;
     font-weight: 600;
     font-size:1.2rem;
 }
 .review .reviewDesc{
     line-height: 27px;
     font-weight: 500;
-    color: #6d6d6d;
+    color: #dfdfdf;
 }
 .reviewFooter{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 1rem;
 }
 .reviewer{
     display: flex;
@@ -37,14 +39,15 @@
     height: 100%;
 }
 .reviewer span{
-    color: #1F303F;
+    color: #ffffff;
     font-weight: 500;
 }
 .reviewStar{
     display: flex;
     gap: 0.2rem;
 }
-.star{
-    width: 1.3rem;
-    fill: rgb(36, 36, 222);;
+.reviewStar > .star{
+    width: 1rem;
+    fill: rgb(253, 253, 255)!important;
+    background-color:red;
 }

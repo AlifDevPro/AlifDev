@@ -6,7 +6,7 @@ import "./home.css";
 import Link from "next/link";
 
 import SliderIcon from "../../../public/asset/slider-icon.svg";
-import homeBg from "../../../public/asset/bg-design.svg";
+import homeImg from "../../../public/asset/home.svg";
 import dot from "../../../public/asset/dot.svg";
 import HeadingAnimation from "../../client-component/type-animation/heading-animation";
 import SocialIcon from "../../client-component/social-icons/social-icon";
@@ -37,18 +37,19 @@ function Home() {
               >
                 Hire Me
               </Link>
-              <Link className="primary-button active:scale-95 transition" href="/">
+              <Link className="primary-button active:scale-95 transition" href="/#projects">
                 <span>Project</span>
-                <MdReadMore />
+                <MdReadMore className="animate-pulse"/>
               </Link>
             </div>
           </div>
           <div className="slider-icon">
             <Image
-              src="https://cdni.iconscout.com/illustration/premium/thumb/web-development-3454628-2918517.png"
+            className=""
+              src={homeImg}
               alt="slider"
-              width={1200}
-              height={800}
+              width={200}
+              height={200}
               quality={100}
             />
           </div>
