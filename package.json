@@ -15,7 +15,6 @@
     "@mui/material": "^5.13.6",
     "autoprefixer": "^10.4.14",
     "babel-plugin-macros": "^3.1.0",
-    "boxicons": "^2.1.4",
     "d3-ease": "^3.0.1",
     "eslint": "8.43.0",
     "eslint-config-next": "^14.1.0",

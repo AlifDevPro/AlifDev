@@ -1,8 +1,13 @@
-import React from 'react'
+'use client'
+
+import React, {useEffect} from 'react'
 import './review.css'
 import Image from 'next/image'
+import { FaStar } from "react-icons/fa";
+
 
 function Review({title, desc, name, avatar, rating}) {
+ 
   return (
     <div className='review'>
         <h2 className='reviewHeader'>{title}</h2>
@@ -15,11 +20,11 @@ function Review({title, desc, name, avatar, rating}) {
                 <span>{name}</span>
             </div>
             <div className='reviewStar'>
-                <box-icon type='solid' className='star' name='star'></box-icon>
-                <box-icon type='solid' className='star' name='star'></box-icon>
-                <box-icon type='solid' className='star' name='star'></box-icon>
-                <box-icon type='solid' className='star' name='star'></box-icon>
-                <box-icon type='solid' className='star' name='star'></box-icon>
+                <FaStar className='star'/>
+                <FaStar className='star'/>
+                <FaStar className='star'/>
+                <FaStar className='star'/>
+                <FaStar className='star'/>
             </div>
         </div>
     </div>

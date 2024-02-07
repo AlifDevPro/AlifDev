@@ -49,6 +49,7 @@ function Reviews() {
       });
     // }
   }, []);
+  
 
   return (
     <div className='reviews  bg-[#2424de] p-24 text-white' id='reviews'>

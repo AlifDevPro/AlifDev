@@ -3,7 +3,9 @@
 import React, {useEffect, useState} from "react";
 import Link from "next/link";
 import './footer.css'
-import 'boxicons'
+
+//social icons imports
+import { FaLinkedinIn, FaTwitter, FaStackOverflow, FaGithub,FaMediumM } from "react-icons/fa";
 
 function Footer() {
   const [year, setYear] = useState();
@@ -42,23 +44,23 @@ function Footer() {
             <h2 className="connectHeader">Connect With Me</h2>
             <div className="connectBody">
                 <Link href='/'>
-                <box-icon className='linkedin' name='linkedin' type='logo'></box-icon>
+                <FaLinkedinIn />
                 <span>Linkedin</span>
                 </Link>
                 <Link href='https://twitter.com/AlifAhmedDev' target='_blank'>
-                <box-icon className='twitter' name='twitter' type='logo'></box-icon>
+                <FaTwitter />
                 <span>Twitter</span>
                 </Link>
                 <Link href='https://stackoverflow.com/users/21634507/alif-ahmed' target='_blank'>
-                <box-icon className='stackoverflow' name='stack-overflow' type='logo'></box-icon>
+                <FaStackOverflow />
                 <span>Stack Overflow</span>
                 </Link>
                 <Link href='https://github.com/AlifAhmed24' target='_blank'>
-                <box-icon className='github' name='github' type='logo'></box-icon>
+                <FaGithub />
                 <span>Github</span>
                 </Link>
                 <Link href='https://medium.com/@alif.dev.design' target='_blank'>
-                <box-icon className='medium' name='medium' type='logo'></box-icon>
+                <FaMediumM />
                 <span>Medium</span>
                 </Link>
             </div>    
