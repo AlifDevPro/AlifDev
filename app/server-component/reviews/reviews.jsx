@@ -52,7 +52,7 @@ function Reviews() {
   
 
   return (
-    <div className='reviews  bg-[#2424de] p-24 text-white' id='reviews'>
+    <div className='reviews  bg-[#2424de] p-24 text-white overflow-hidden' id='reviews'>
       <div className='containr'>
         <div className='reviews-header flex flex-col gap-4 items-center justify-center mb-16'>
           <h2 className='text-5xl font-semibold text-white'>Our Customer Feedbacks</h2>
